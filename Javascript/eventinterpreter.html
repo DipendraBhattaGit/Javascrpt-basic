@@ -1,0 +1,36 @@
+<!-- //in event interpreter there are multiple functions that handle different types of events.
+// Each function interprets the event data and performs the necessary actions based on the event type. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Event Interpreter</h1>
+    <p id="para" class="para">
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto odio, amet, alias voluptas esse fugiat nulla sunt suscipit rem, nemo earum unde accusantium? Velit atque eum amet a, dolores recusandae dolore sunt facere, temporibus doloribus non. Voluptas laudantium facere repellat distinctio tempore iure accusantium molestiae ducimus sint ipsam doloremque ratione eveniet suscipit, aperiam nisi tenetur esse adipisci perspiciatis totam beatae voluptatum odio. Modi, nostrum reprehenderit aliquam velit animi id nulla nesciunt tenetur sapiente deleniti culpa soluta aperiam? Amet reiciendis eveniet laborum dicta commodi fuga illum doloremque quo mollitia unde debitis molestiae temporibus sequi corporis reprehenderit quas repellat, maiores quaerat cumque asperiores officiis facere, autem cum libero. Molestiae soluta autem fugit expedita optio laudantium quas. Modi eaque autem ducimus molestias dolore architecto voluptatibus quod veritatis a! Ea quasi error praesentium illo nobis repellendus dolorem hic, beatae accusamus deserunt dolor ipsam architecto cum, veniam voluptatem tenetur. Neque suscipit quis magnam cum culpa facilis consectetur, reprehenderit exercitationem non fugit recusandae, nam cumque? Nihil maxime facere odit saepe quo et perferendis natus facilis quos deleniti quaerat impedit tempora doloribus soluta quidem minima id commodi ea culpa fugiat, temporibus velit qui. Temporibus quod non saepe dolores voluptates laudantium fugiat porro pariatur repudiandae quis ullam doloremque fuga provident vel possimus quos, rerum inventore autem ipsam placeat esse nobis at eum earum. Odio, magnam harum? Unde sit debitis maiores, deleniti qui earum facilis, voluptates quisquam quibusdam ipsam quis voluptatibus iusto itaque officia accusamus doloribus accusantium aperiam quas nihil omnis expedita delectus laborum a. Exercitationem voluptatibus magni laboriosam doloremque animi aut tenetur repudiandae, libero amet, harum aliquam provident similique quis mollitia commodi debitis, qui ullam iste? Odit eligendi quae totam iure non incidunt, illo nemo delectus, rem dicta, iusto quidem officia. Itaque cupiditate rem fugit quis ipsum provident sint, officia ad atque beatae, fugiat ab incidunt cum culpa!
+    </p>
+</div>
+<button id="btn" onclick="toggleHide()">Show/Hide</button>
+
+<script>
+function toggleHide() {
+    let btn = document.getElementById('btn');
+    let para = document.getElementById('para');
+
+    if (para.style.display !== 'none') {
+        para.style.display = 'none';
+        btn.innerText = "Show";
+    } else {
+        para.style.display = 'block';
+        btn.innerText = "Hide";
+    }
+}
+
+</script>
+
+</body>
+</html> 
